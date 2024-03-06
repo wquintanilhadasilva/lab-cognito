@@ -1,0 +1,12 @@
+
+server:
+  port: 8083
+
+spring:
+  application:
+    name: lab-cognito
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_KPcAUzLGi
